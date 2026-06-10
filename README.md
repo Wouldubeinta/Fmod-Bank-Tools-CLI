@@ -2,7 +2,7 @@
 
 ![Download Count](https://img.shields.io/github/downloads/Wouldubeinta/Fmod-Bank-Tools/total.svg)
 
-![Title Image](https://github.com/Wouldubeinta/Fmod-Bank-Tools/blob/master/readme/title.webp)
+![Title Image](https://github.com/Wouldubeinta/Fmod-Bank-Tools-CLI/blob/master/readme/title.webp)
 
 **How To Use:**  
   
