@@ -1,4 +1,4 @@
-# Fmod Bank Tools
+# Fmod Bank Tools CLI - Command Version
 
 ![Download Count](https://img.shields.io/github/downloads/Wouldubeinta/Fmod-Bank-Tools-CLI/total.svg)
 
