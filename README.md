@@ -1,8 +1,8 @@
-# Fmod Bank Tools
+# Fmod Bank Tools CLI - Console Edition
 
-![Download Count](https://img.shields.io/github/downloads/Wouldubeinta/Fmod-Bank-Tools/total.svg)
+![Download Count](https://img.shields.io/github/downloads/Wouldubeinta/Fmod-Bank-Tools-CLI/total.svg)
 
-![Title Image](https://github.com/Wouldubeinta/Fmod-Bank-Tools/blob/master/readme/title.webp)
+![Title Image](https://github.com/Wouldubeinta/Fmod-Bank-Tools-CLI/blob/master/readme/title.webp)
 
 **How To Use:**  
   
