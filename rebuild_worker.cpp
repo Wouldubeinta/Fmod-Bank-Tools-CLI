@@ -11,10 +11,10 @@ void RebuildWorker::rebuild_bank()
 
     settings.beginGroup("Directorys");
     QString fsbDir = QCoreApplication::applicationDirPath() + "/fsb/";
-    QString bankDir = settings.value("BankDir").toString() + "/";
-    QString wavDir = settings.value("WavDir").toString() + "/";
-    QString rebuildDir = settings.value("RebuildDir").toString() + "/";
-    QString cacheDir = settings.value("CacheDir").toString() + "/";
+    QString bankDir = fileio::resolveFolderPath(settings.value("BankDir").toString()) + "/";
+    QString wavDir = fileio::resolveFolderPath(settings.value("WavDir").toString()) + "/";
+    QString rebuildDir = fileio::resolveFolderPath(settings.value("RebuildDir").toString()) + "/";
+    QString cacheDir = fileio::resolveFolderPath(settings.value("CacheDir").toString()) + "/";
     settings.endGroup();
 
     settings.beginGroup("Options");

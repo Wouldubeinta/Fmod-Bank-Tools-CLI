@@ -9,7 +9,7 @@
 
 void printUsage() {
     std::cout << "===================================================================\n";
-    std::cout << " Fmod Bank Tools - Console Edition - v2.2.3.28\n";
+    std::cout << " Fmod Bank Tools - Console Edition - v2.2.4.29\n";
     std::cout << "===================================================================\n";
     std::cout << "Usage:\n";
     std::cout << "  Fmod_Bank_Tools_CLI <mode> [options]\n\n";
@@ -27,7 +27,7 @@ void printUsage() {
     std::cout << "  -h                  Get help\n\n";
     std::cout << "Example For Extracting:\n";
     std::cout << "  Fmod_Bank_Tools_CLI -e -bd D:\\Fmod_Bank_Tools_CLI\\bank -wd D:\\Fmod_Bank_Tools_CLI\\wav -rd D:\\Fmod_Bank_Tools_CLI\\build -cd D:\\Fmod_Bank_Tools_CLI\\fsbcache \n";
-    std::cout << "Example For Rebuiling:\n";
+    std::cout << "Example For Rebuilding:\n";
     std::cout << "  Fmod_Bank_Tools_CLI -r -f vorbis -q 80 -t 4\n";
     std::cout << "===================================================================\n";
 }

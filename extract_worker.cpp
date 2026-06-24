@@ -19,8 +19,8 @@ void ExtractWorker::extract_fsb()
     QSettings settings(config, QSettings::IniFormat);
     settings.beginGroup("Directorys");
     QString fsbDir = QCoreApplication::applicationDirPath() + "/fsb/";
-    QString bankDir = settings.value("BankDir").toString() + "/";
-    QString wavDir = settings.value("WavDir").toString() + "/";
+    QString bankDir = fileio::resolveFolderPath(settings.value("BankDir").toString()) + "/";
+    QString wavDir = fileio::resolveFolderPath(settings.value("WavDir").toString()) + "/";
     settings.endGroup();
 
     QDir bank_directory(bankDir);
@@ -78,11 +78,11 @@ void ExtractWorker::extract_fsb()
             if (error)
                 continue;
 
-            delete[] exinfo.encryptionkey;
             FMOD_Sound_Release(sound);
             FMOD_System_Release(system);
         }
 
+        delete[] exinfo.encryptionkey;
         i++;
     }
 
